@@ -6,6 +6,10 @@ See the [README.md](./README.md) for a complete description of the lwip-freertos
 
 ## Changelog
 
+### v1.2.0
+- Added support for PSE84 platform.
+- Enabled LLVM_ARM toolchain support.
+
 ### v1.1.0
 - Moved lwip buffers to non-cacheable regions to handle D-cache on XMC7000 devices.
 
@@ -19,11 +23,12 @@ This version of the library was validated for compatibility with the following s
 
 | Software and tools                                             | Version |
 | :---                                                           | :----:  |
-| ModusToolbox&trade; software environment                       | 3.3     |
-| ModusToolbox&trade; device configurator                        | 5.10    |
+| ModusToolbox&trade; software environment                       | 3.5     |
+| ModusToolbox&trade; device configurator                        | 5.30    |
 | GCC compiler                                                   | 11.3.1  |
 | IAR compiler                                                   | 9.50.2  |
 | Arm&reg; compiler 6                                            | 6.22    |
+| LLVM compiler                                                  | 19.1.5  |
 
 
 ## Additional information
